@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 import './TeamSection.css'
-import { FaBars } from 'react-icons/fa';
-import { FaTimes } from 'react-icons/fa';
 import { RiArrowDownSLine } from 'react-icons/ri';
 import { RiArrowUpSLine } from 'react-icons/ri';
 const TeamSection = () => {
