@@ -1,0 +1,141 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.nav-link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    animation: movedown 1s linear 1;
+    animation-delay: 0.3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+ 
+}
+@keyframes movedown{
+    0%{
+        transform: translateY(-150px);
+        visibility: visible;
+    }
+    100%{
+        transform:  translateY(0);
+        visibility: visible;
+    }
+}
+.nav-link-inner-1{
+   width: 35%;
+   display: flex;
+   justify-content: space-between;
+   margin-right: 100px;
+    
+}
+
+.get{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.inner{
+    
+   position: absolute;
+   right: 0;
+   margin-right: 40px;
+   
+   padding: 20px;
+   z-index: 200;
+
+}
+.nav-link-inner{
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    animation: moveside 0.2s linear 1;
+    animation-delay: 0.3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    z-index: 200;
+}
+.nav-link-inner-1 li, a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.nav-link-inner:hover{
+    background-color: #fff;
+}
+@keyframes moveside{
+    0%{
+        transform: translateX(250px);
+        visibility: visible;
+    }
+    100%{
+        transform:  translateX(0);
+        visibility: visible;
+    }
+}
+
+
+
+.nav-link-inner li{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-link-inner li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: green;
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-link-inner li a:hover{
+    list-style-type: none;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav-link-inner:hover{
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+   
+}
+
+
+.mobile{
+    display: none;
+}
+.get{
+    display: none;
+
+}
+.show-get{
+    display: block;
+  
+
+}
+
+@media screen and (max-width: 700px){
+  .mobile{
+    display: block;
+  }
+  
+}

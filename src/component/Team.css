@@ -1,0 +1,39 @@
+
+.team{
+  min-height: 100vh;
+  width: 100%;
+  background-color: green;
+}
+
+.team-content{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.image-array{
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+
+.card{
+  margin-top: 40px;
+  background-color: black;
+  border: 1px solid #fff;
+  overflow: hidden;
+  height: 400px;
+  color: #fff;
+}
+.card-top > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

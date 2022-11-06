@@ -1,0 +1,92 @@
+#team-grapher{
+    min-height: 100vh;
+    width: 100%;
+    z-index: 3000;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    overflow: hidden;
+}
+
+.team-grapher-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team-grapher-content h3{
+    text-align: center;
+    width: 50%;
+    margin: 40px 0;
+    font-size: 25px;
+}
+.team-grapher-content p{
+   font-size: 20px;
+    width: 60%;
+}
+.top-handler, .top-handler-1, .top-handler-2{
+    background-color: rgb(200, 200, 200);
+    width: 60%;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.top-handler p{
+    text-align: left;
+    width: 90%;
+    margin: 20px 0;
+}
+.top-handler-1 p{
+    text-align: left;
+    width: 90%;
+    margin: 20px 0;
+}
+.top-handler-2 p{
+    text-align: left;
+    width: 90%;
+    margin: 20px 0;
+}
+.top-handler-content, .top-handler-content-1, .top-handler-content-2{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    
+}
+
+.show{
+    display: block;
+   
+    
+}
+
+.show-not{
+    display: none;
+}
+
+.show-1{
+    display: block;
+    
+}
+
+.show-not-1{
+    display: none;
+}
+.show-2{
+    display: block;
+    
+}
+
+.show-not-2{
+    display: none;
+}

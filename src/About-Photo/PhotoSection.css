@@ -1,0 +1,38 @@
+#photo-grapher-1{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(175, 212, 212, 0.4);
+    position: relative;
+
+}
+.photo-graper-con-1{
+    min-height: 100vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+    height: 550px;
+   
+}
+.photo-left-1 h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #02413c;
+}
+
+.photo-left-1 p{
+    font-size: 25px;
+    line-height: 35px;
+    width: 95%;
+  
+    
+}
